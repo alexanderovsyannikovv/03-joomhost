@@ -1,0 +1,291 @@
+@media (max-width: 1160px) {
+    .price {
+        padding-bottom: 70px;
+    }
+
+    .price__items {
+        flex-wrap: wrap;
+    }
+    .price-item {
+        max-width: 48%;
+
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 1110px) {
+    .top-info {
+        max-width: 420px;
+    }
+}
+
+@media (max-width: 992px) {
+    .menu__list {
+        display: none;
+    }
+    
+    .btn__menu {
+        display: block;
+
+        transition: transform 0.5s;
+    }
+
+    .btn__menu.active div:nth-of-type(1) {
+        display: none;
+    }
+    .btn__menu.active div:nth-of-type(2) {
+        position: relative;  
+        
+        transform: rotate(45deg);   
+    }
+    .btn__menu.active div:nth-of-type(3) {
+        position: relative;
+        top: -10px;
+        left: 20px;
+
+        transform: translate(-50%, 0%) rotate(-45deg);
+    }
+
+    .menu__list.active {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        overflow: auto;
+
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+        width: 100%;
+        height: 100%;
+
+        background-color: #FFFFFF;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        z-index: 8;
+    }
+
+    .menu__list.active li {
+        margin: 5px 0 5px 0;
+        padding: 5px 0 5px 0;
+    }
+
+    .menu__list.active li:hover {
+        background-color: #FAFAFA;
+    }
+
+    .menu__list.active a {
+        font-size: 25px;
+    }
+
+    body.noscroll {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 985px) {
+    .top-info {
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 940px) {
+    .top-info {
+        max-width: 325px;
+    }
+
+    .top {
+        padding-top: 110px;
+    }
+
+    /*FOOTER*/
+    .footer {
+        padding: 60px 0 60px 0;
+    }
+
+    .footer__inner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-column__logo {
+        padding-top: 15px;
+
+        order: 4;
+        width: 100%;
+
+        text-align: center;
+    }
+
+    .footer-logo {    
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 870px) {
+    .top-images__circle {
+        width: 165px;
+        height: 165px;
+
+        left: 170px;
+    }
+
+    .top_images__box img {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 821px) {
+    .top {
+        padding-top: 90px;
+    }
+
+    .price {
+        padding: 70px 0 45px 0;
+    }
+}
+
+@media (max-width: 740px) {
+    .price-item {
+        max-width: 100%;
+    }
+
+    .price__description {
+        margin-bottom: 80px;
+    }
+}
+
+
+
+@media (max-width: 711px) {
+    .top__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .top-images {
+        margin-top: 60px;
+    }
+
+    .top-info {
+        min-width: 100%;
+    }
+
+    .top {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+
+
+    .footer-form {
+        padding-bottom: 20px;
+
+        order: -1;
+
+        width: 100%;
+    }
+
+    .footer-form button {
+        display: block;
+
+        margin: 0 0 0 auto;
+    }
+
+    .footer__title {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 421px) {
+    .top {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .top-info__title {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .top-info__btn {
+        display: block;  
+        text-align:center
+    }
+
+    .top-info__description span {
+        max-width: 320px;
+    }
+
+    .top-info__list {
+        margin-bottom: 30px;
+    }
+
+    .top-images__circle {
+        width: 125px;
+        height: 125px;
+
+        top: -25px;
+        left: 150px;
+    }
+
+    .top_images__box img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .top-images__title,
+    .top-images__data {
+        width: 90px;
+    }
+    .top-images__price {
+        font-size: 40px;
+    }
+
+    /*PRICE*/
+    .title {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .price__description {
+        margin-bottom: 60px;
+    }
+
+    .price-item {
+        margin-bottom: 20px;
+        padding: 0 25px 40px 25px;
+    }
+
+    .price-item__img {
+        padding-top: 110px;
+    }
+
+    .price-item__text {
+        margin-bottom: 35px;
+    }
+
+    .price-item__list {
+        margin-bottom: 55px;
+    }    
+}
+
+@media (max-width: 377px) {
+    .footer-menu {
+        margin: 0 auto;
+    }
+
+    .footer-menu {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 360px) {
+    .peice-item__number {
+        width: 280px;
+        height: 442px;
+    }
+}
